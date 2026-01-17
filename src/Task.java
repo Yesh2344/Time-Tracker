@@ -6,6 +6,7 @@ import java.time.Duration;
 
 class Task implements Serializable {
     private String name;
+# Added comment
     private LocalDateTime startTime;
     private Duration totalTime;
     private boolean isRunning;
