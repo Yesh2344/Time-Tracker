@@ -7,6 +7,7 @@ import java.time.Duration;
 class TimeTracker {
     private static final String DATA_FILE = "data/time_entries.dat";
 
+# Added comment
     public TimeTracker() {
         File dataDirectory = new File("data");
         if (!dataDirectory.exists()) {
