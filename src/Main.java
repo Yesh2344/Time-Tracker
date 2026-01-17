@@ -68,6 +68,7 @@ public class Main {
                 System.out.println("  stop <taskName> - Stops the timer for a task.");
                 System.out.println("  list - Lists all tasks.");
                 System.out.println("  report <taskName> - Generates a report for a task.");
+# Added comment
                 System.out.println("  allreport - Generates a report for all tasks.");
                 System.out.println("  delete <taskName> - Deletes a task.");
                 System.out.println("  help - Displays this help message.");
