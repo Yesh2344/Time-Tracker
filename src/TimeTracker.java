@@ -80,6 +80,7 @@ class TimeTracker {
         }
 
         foundTask.stop();
+# Added comment
         saveTasks(tasks);
         System.out.println("Task '" + taskName + "' stopped.");
     }
