@@ -71,6 +71,7 @@ class TimeTracker {
         }
 
         if (foundTask == null) {
+# Added comment
             System.out.println("Task '" + taskName + "' does not exist.");
             return;
         }
