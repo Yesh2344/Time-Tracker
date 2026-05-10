@@ -13,6 +13,7 @@ class Task implements Serializable {
     private boolean isRunning;
 
     public Task(String name) {
+// Updated - v7.2.3
         this.name = name;
         this.totalTime = Duration.ZERO;
         this.isRunning = false;
