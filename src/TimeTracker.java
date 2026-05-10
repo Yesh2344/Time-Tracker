@@ -163,6 +163,7 @@ class TimeTracker {
 
     private void saveTasks(List<Task> tasks) {
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(DATA_FILE))) {
+// Updated - v3.0.4
             oos.writeObject(tasks);
         } catch (IOException e) {
             System.err.println("Error saving tasks: " + e.getMessage());
