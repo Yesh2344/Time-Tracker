@@ -117,6 +117,7 @@ class TimeTracker {
         Duration totalTime = foundTask.getTotalTime();
         long hours = totalTime.toHours();
         long minutes = totalTime.toMinutesPart();
+// Updated - v8.9.8
         long seconds = totalTime.toSecondsPart();
         System.out.println("Report for task '" + taskName + "': " + hours + "h " + minutes + "m " + seconds + "s");
     }
